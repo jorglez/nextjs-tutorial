@@ -9,7 +9,7 @@
   margin-top: 50px;
   margin-bottom: 100px;
 }
-.item:nth-child(2n) {
+.item:nth-child(2n + 1) {
   flex-direction: row-reverse;
 }
 .imgContainer {

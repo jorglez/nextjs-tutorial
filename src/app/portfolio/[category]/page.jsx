@@ -8,7 +8,13 @@ const Category = ({ params }) => {
       <div className={styles.item}>
         <div className={styles.content}>
           <h1 className={styles.title}>test</h1>
-          <p className={styles.desc}>description</p>
+          <p className={styles.desc}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            eget ultrices lectus. Maecenas fringilla hendrerit suscipit. Cras
+            vitae massa non leo efficitur rhoncus. Ut sodales eget nibh sit amet
+            luctus. Nullam non bibendum risus. Proin sed viverra purus, eget
+            condimentum nulla. Nam eget nulla id elit elementum dapibus.
+          </p>
           <LinkButton link={"#"} text={"see more"} />
         </div>
         <div className={styles.imgContainer}>
@@ -25,7 +31,13 @@ const Category = ({ params }) => {
       <div className={styles.item}>
         <div className={styles.content}>
           <h1 className={styles.title}>test</h1>
-          <p className={styles.desc}>description</p>
+          <p className={styles.desc}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            eget ultrices lectus. Maecenas fringilla hendrerit suscipit. Cras
+            vitae massa non leo efficitur rhoncus. Ut sodales eget nibh sit amet
+            luctus. Nullam non bibendum risus. Proin sed viverra purus, eget
+            condimentum nulla. Nam eget nulla id elit elementum dapibus.
+          </p>
           <LinkButton link={"#"} text={"see more"} />
         </div>
         <div className={styles.imgContainer}>
@@ -42,7 +54,13 @@ const Category = ({ params }) => {
       <div className={styles.item}>
         <div className={styles.content}>
           <h1 className={styles.title}>test</h1>
-          <p className={styles.desc}>description</p>
+          <p className={styles.desc}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            eget ultrices lectus. Maecenas fringilla hendrerit suscipit. Cras
+            vitae massa non leo efficitur rhoncus. Ut sodales eget nibh sit amet
+            luctus. Nullam non bibendum risus. Proin sed viverra purus, eget
+            condimentum nulla. Nam eget nulla id elit elementum dapibus.
+          </p>
           <LinkButton link={"#"} text={"see more"} />
         </div>
         <div className={styles.imgContainer}>

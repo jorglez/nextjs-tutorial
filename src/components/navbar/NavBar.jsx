@@ -1,6 +1,7 @@
 import Link from "next/link";
 import LogOutButton from "./LogOutButton";
 import styles from "./Navbar.module.css";
+import DarkModeToggle from "../darkModeToggle/DarkModeToggle";
 const links = [
   {
     id: 1,
@@ -40,6 +41,7 @@ const NavBar = () => {
         Site Logo
       </Link>
       <div className={styles.links}>
+        <DarkModeToggle />
         {links.map((link) => (
           <Link key={link.id} href={link.url}>
             {link.title}
